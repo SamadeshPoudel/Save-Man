@@ -3,7 +3,7 @@ const app = express();
 // app.use(express.json())
 
 app.get("/",(req, res)=>{
-    res.send("Hi there from backend");
+    res.send("Edited backend");
 })
 
-app.listen(3000);
+app.listen(3000)
